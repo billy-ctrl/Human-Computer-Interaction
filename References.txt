@@ -1,0 +1,57 @@
+-- Homepage 
+SlideShowBanner: https://www.canva.com/
+bestseller1: https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.dewimagazine.com/img/images_image2/5c875ff32833512839_0.jpg&container=focus&resize_w=750
+bestseller2: https://imgix.bustle.com/uploads/image/2019/4/8/28a3bb15-4724-4aba-a4f1-1da9a473d9ed-54277558_280940052801488_8326423659618200387_n.jpg?w=970&h=546&fit=crop&crop=faces&auto=format%2Ccompress&cs=srgb&q=70
+bestseller3: https://www.lauralouisebeauty.co.uk/wp-content/uploads/2017/05/nars-foundation-ultimate-guide-1440x1694.gif
+recommended: https://www.cosmopolitan.co.id/newtest/vrgallery/teaser/Skincare-Lokal-OP_65_20190819185821bJmd1q.jpg
+
+-- Register
+email validation : https://www.aspsnippets.com/Articles/Email-validation-without-using-Regular-Expression-in-JavaScript.aspx
+Free Shipping	 : https://www.hiclipart.com/free-transparent-background-png-clipart-idojn
+New Collection   : https://www.psdstamps.com/wp-content/uploads/2019/12/grunge-new-collecion-label-png.png
+
+-- Promotion
+Snowflake effect : https://stackoverflow.com/questions/13983764/creating-falling-snow-using-html-5-and-js
+Snowflake codes  : http://jsfiddle.net/loktar/UdyN6/
+cosm1 : https://blog.shopping.life/wp-content/uploads/2019/04/idealna-pomadka-do-ust-1.jpg
+cosm2 : https://beautyhubbd.com/public/img/sliderContent/thumb/25e3b75f21f343.jpeg
+
+-- Makeup
+Make Up Logo	 : https://www.sephora.com/shop/makeup-cosmetics
+foundation1 : https://cdn.shopify.com/s/files/1/1803/1135/products/BP_Best__sellers_second_image.jpg?v=1541706427
+foundation2 : https://asset-a.grid.id/crop/0x0:0x0/x/photo/2018/05/07/3760713531.jpg
+foundation3 : https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1570475312-foundation-dior-1570475286.jpg
+
+concealer1: https://tartecosmetics.com/on/demandware.static/-/Sites-master-catalog-tarte/default/dwf6cde8ce/836/7.12.19/MAIN/836_DDB%20shape%20tape%20concealer_22N_light%20neutral_DDB_misc-alt-1_ALT.jpg
+concealer2: https://images-na.ssl-images-amazon.com/images/I/71KO8caKi0L._SY355_.jpg
+concealer3 : https://static-reg.lximg.com/images/product_images/closeup_1_Product_602004111548-Benefit-Boi-ing-Cakeless-Concealer-Shade-01_347bb627378f937226af348ce1ed4817a6d8ec2b_1566877048.png
+
+mascara1 : https://media-asia-cdn.oriflame.com/-/media/images/externalImage.ashx?externalMediaId=product-management-media%2F33243%2F33243.png%3Fversion%3D1&q=70
+mascara2 : https://www.maybelline.co.id/~/media/mny/id_id/eyes/mascara/hypercurl%20mascara/hypercurl-mascara-5.jpg
+mascara3 : https://cdn.shopify.com/s/files/1/0098/9023/4434/products/GN1005_GrandeMASCARA_RichBlack_01.jpg?v=1587573915
+
+eyeliner1 :https://m.maccosmetics.com/media/export/cms/products/640x600/mac_sku_M1G601_640x600_0.jpg
+eyeliner2 : https://cdn.shopify.com/s/files/1/2405/1749/products/definition-eyeliner-02_1024x1024.jpg?v=1509779957
+eyeliner3 : https://simplysiti.co.id/file/2019/03/SE-Defination-Liquid-Eye-Liner-01-scaled.jpg
+
+lg1 : https://cdn.shopify.com/s/files/1/0846/7754/products/moisture-infusion-lipgloss_1000x1000_720x720_f2a147df-cffb-4b2f-808f-3f0b78815f8a_720x720.jpg?v=1535897577
+lg2 : https://www.sephora.com/productimages/sku/s1493998-main-Lhero.jpg
+lg3 : https://images.ulta.com/is/image/Ulta/2562810?op_sharpen=1&resMode=bilin&qlt=85&wid=800&hei=800&fmt=jpg
+
+ls1 : https://static2.kryolan.com/sites/default/files/products/05212_00/960/05212_00_prod_dance_960.jpg
+ls2 : https://mocparis.vn/wp-content/uploads/Son-YSL-Tatouge-Couture-01-Rouge-Tatouge-Vibrant-Pink-Red.jpg
+ls3 : https://localcdn.tinkerlust.com/media/catalog/product/cache/1/image/1440x1280/9df78eab33525d08d6e5fb8d27136e95/I/M/IMG_0008.JPG_677.jpg
+
+-- Skin Care
+Skincare Logo	 : https://www.sephora.com/shop/skincare
+Sunscreen1 : https://www.mamonde.com/int/en/product/__icsFiles/afieldfile/2019/04/18/Mamonde_everyday_aqua_suncream_20180808_DF.jpg
+Sunscreen2 : https://cdn.shopify.com/s/files/1/2489/3542/products/0320-de-spf-30-tinted-mineral-moisturizer-web-photo-2000x2000_1024x1024.jpg?v=1587413444
+Sunscreen2 : https://target.scene7.com/is/image/Target/GUEST_0879338a-6873-4ecf-bde3-619ab2da2fb6?wid=488&hei=488&fmt=pjpeg
+
+Mois1 : https://n.nordstrommedia.com/ImageGallery/store/product/Zoom/9/_105986949.jpg?h=365&w=240&dpr=2
+Mois2 : https://images.shopdutyfree.com/image/upload/v1531299508/040/003/001/27131799047/27131799047_1_default_default.jpg
+Mois3 : https://images.squarespace-cdn.com/content/v1/5ae6f6954611a0353c508413/1565651644726-T9SU8HRK5ONP4D62ROOZ/ke17ZwdGBToddI8pDm48kPkAeG9VxKtehkWVZu7n3jx7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmuD9UDKXxOJxXxCUgm7BwOiUqq9004LCCqcddK38v46NH5fNqLuuBzWTXYVZ6eAqt/Classic+Moisturizer+-+Front.png
+
+FM1 : https://myer-media.com.au/wcsstore/MyerCatalogAssetStore/images/15/150/1456/12/17/204283670_161309890/204283670_161309890_1_720x928.jpg
+FM2 : https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1533124376-s1901230-main-zoom.jpg?crop=1xw:1xh;center,top&resize=768:*
+FM3 : https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1585936737-s1632868-main-hero-1500.jpg?crop=1xw:1.00xh;center,top&resize=768:*
