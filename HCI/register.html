@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beaudei Register</title>
+    <link rel="stylesheet" type="text/css" href="register_designs.css">
+    <script src="jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <div class="logo_Container">
+        <a href="homepage.html" class="logolink">
+            <img src="images\beaudei_logo.png" class="logo">
+        </a>
+    </div>
+
+    <div class="formBackground">
+        <div class="registrationform">
+            Registration Form
+        </div>
+
+        <form>
+            <div class="formList">
+                <br>
+                <label>Name</label> 
+                <input type="text" placeholder="Fullname" id="username" class="userinput">
+            </div>
+
+            <div class="formList">
+                <br>
+                <label>Email</label> 
+                <input type="email" placeholder="Email Address" id="email" class="userinput">
+            </div>
+
+            <div class="formList">
+                <br>
+                <label>Password</label>
+                <input type="checkbox" onclick="showpassword()" id="visibilityToggle">
+                <input type="password" placeholder="Password" id="userpassword" class="userinput">
+            </div>
+
+            <div class="formList">
+                <br>
+                <label>Confirm Password</label>
+                <input type="password" placeholder="Confirm Password" id="confirm_userpassword" class="userinput">
+            </div>
+
+            <br>
+
+            <div class="formList">
+                <label for="gender">Gender</label>
+
+                <div class="grouping_radio" id="topspacing">
+                    <input type="radio" name="gender" id="male" class="radioscale">
+                    <span class="radio_label">Male</span>
+                </div>
+
+                <div class="grouping_radio">
+                    <input type="radio" name="gender" id="female" class="radioscale">
+                    <span class="radio_label">Female</span>
+                </div>
+
+                <div class="grouping_radio" id="bottomspacing">
+                    <input type="radio" name="gender" id="other" class="radioscale">
+                    <span class="radio_label">Other</span>
+                </div>
+            </div>
+
+            <div class="formList">
+                <label>Skin Type</label>
+                <br>
+                <select id="skin_type" class="userinput">
+                    <option value="">Select Skin Type</option>
+                    <option value="Normal">Normal</option>
+                    <option value="Dry">Dry</option>
+                    <option value="Oily">Oily</option>
+                    <option value="Combination">Combination</option>
+                    <option value="Sensitive">Sensitive</option>
+                </select>
+            </div>
+
+            <br>
+
+            <div class="formList">
+                <label>Country</label>
+                <br>
+                <select id="countries" class="userinput">
+                    <option value="">Select Country</option>
+                    <option value="America">America</option>
+                    <option value="China">China</option>
+                    <option value="England">England</option>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Korea">Korea</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Taiwan">Taiwan</option>
+                </select>
+            </div>
+
+            <br>
+
+            <div class="formList">
+                <label for="address">Address</label>
+            </div>
+            <div class="formList"> 
+                <textarea id="address" placeholder="Current Address"></textarea>
+            </div>
+
+            <br>
+
+            <div class="agree_positioner">
+                <label>
+                    <input type="checkbox" id="agree">
+                    <span class="checkB">I Agree with the Terms and Conditions</span>
+                </label>
+            </div>
+
+            <div id="bottomtext"></div>
+
+            <div class="submit_reset">
+                <button type="reset" onclick="reset_field(1)" class="Bdesign">Reset</button>
+                <button type="button" onclick="start()" class="Bdesign">Submit</button>
+            </div>
+        </form>
+
+        
+    </div>
+
+    <div class="bilhelp">
+        <img src="images\ad banner.jpg" class="makeuplogo">
+    </div>
+    <script src="register_brains.js"></script>
+</body>
+<footer>
+    Copyright &copy; Beaudei 2020
+</footer>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makeup Shop</title>
+    <link rel="stylesheet" type="text/css" href="skincareshop_designs.css">
+    <script src="jquery-3.5.1.min.js"></script>
+</head>
+<body>
+
+    <!-- Logo -->
+    <div class="logo_Container">
+        <a href="homepage.html" class="logolink">
+            <img src="images\beaudei_logo.png" class="logo">
+        </a>
+    </div>
+
+    <!-- Navigation Bar -->
+    <button class="navigation" onclick="window.location.href='Promotion.html'">Promotion</button>
+
+    <div class="navigation2">
+        Shop
+        <div class="dropdown">
+            <button onclick="window.location.href='makeupshop.html'">MakeUp</button>
+            <button onclick="window.location.href='skincare.html'">Skin Care</button>
+        </div>
+    </div>
+   
+    <button class="navigation" onclick="window.location.href='register.html'">Register</button>
+
+
+    <!-- Makeup banner positioner -->
+    <div class="bilhelp">
+        <img src="images\skincare fix.png" class="makeuplogo">
+    </div>
+    
+    <!-- Position Sunscreen Button -->
+    <div class="subtitle" onclick="reveal_sunscreen()">
+        Sunscreen
+    </div>
+
+    <!-- Position and display product image and info -->
+    <div class="content_panel" id="sunscreen">
+
+        <!-- image positioned left -->
+        <div class="content1" id="sun1">
+            <img src="images/Sunscreen1.jpg" class="content_img">
+        </div>
+        
+        <!-- image info positioned left -->
+        <div class="content_detail1" id="sun_d1">
+            Aqua Sunscreen<br>
+            $8.99
+        </div>
+
+        <!-- image positioned center -->
+        <div class="content2" id="sun2">
+            <img src="images/Sunscreen2.jpg" class="content_img">
+        </div>
+        
+        <!-- image info positioned center -->
+        <div class="content_detail2" id="sun_d2">
+            Skin Protector Sport Collection<br>
+            $15.99
+        </div>
+        
+        <!-- image positioned right -->
+        <div class="content3" id="sun3">
+            <img src="images/Sunscreen3.jfif" class="content_img">
+        </div>
+        
+        <!-- image info positioned right -->
+        <div class="content_detail3" id="sun_d3">
+            Sun Protection Black Collection<br>
+            $14.99
+        </div>
+    </div>
+        
+
+    <!-- Position Moisturizer Button -->
+    <div class="subtitle2" onclick="reveal_moisturizer()">
+        Moisturizer
+    </div>
+
+    <!-- Position and display product image and info -->
+    <div class="content_panel" id="moisturizer">
+
+        <!-- image positioned left -->
+        <div class="content1" id="moist1">
+            <img src="images/Mois1.jpg" class="content_img">
+        </div>
+        
+        <!-- image info positioned left -->
+        <div class="content_detail1" id="moist_d1">
+            Multi Perfection Moisturizer<br>
+            $120.99
+        </div>
+        
+        <!-- image positioned center -->
+        <div class="content2" id="moist2">
+            <img src="images/Mois2.jpg" class="content_img">
+        </div>
+        
+        <!-- image info positioned center -->
+        <div class="content_detail2" id="moist_d2">
+            Estee Lauder Collection<br>
+            $54.99
+        </div>
+        
+        <!-- image positioned right -->
+        <div class="content3" id="moist3">
+            <img src="images/Mois3.png" class="content_img">
+        </div>
+        
+        <!-- image info positioned right -->
+        <div class="content_detail3" id="moist_d3">
+            Peaches Classic Collection<br>
+            $165.99
+        </div>
+    </div>    
+
+
+    <!-- Position Face Mask Button -->
+    <div class="subtitle2" onclick="reveal_facemask()">
+        Face Mask
+    </div>
+
+    <!-- Position and display product image and info -->
+    <div class="content_panel" id="facemask">
+
+        <!-- image positioned left -->
+        <div class="content1" id="face1">
+            <img src="images/FM1.jpg" class="content_img">
+        </div>
+        
+        <!-- image info positioned left -->
+        <div class="content_detail1" id="face_d1">
+            Estee Lauder Mask<br>
+            $24.99
+        </div>
+        
+        <!-- image positioned center -->
+        <div class="content2" id="face2">
+            <img src="images/FM2.jpg" class="content_img">
+        </div>
+        
+        <!-- image info positioned center -->
+        <div class="content_detail2" id="face_d2">
+            Hollywood Style<br>
+            $75.99
+        </div>
+        
+        <!-- image positioned right -->
+        <div class="content3" id="face3">
+            <img src="images/FM3.jpg" class="content_img">
+        </div>
+        
+        <!-- image info positioned right -->
+        <div class="content_detail3" id="face_d3">
+            Pumpkin Enzyme Mask<br>
+            $64.99
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <script src="skincareshop_brains.js"></script>
+</body>
+<footer>
+    Copyright &copy; Beaudei 2020
+</footer>
+</html>

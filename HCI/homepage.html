@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beaudei Home</title>
+    <link rel="stylesheet" type="text/css" href="homepage_designs.css">
+    <script src="jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <!-- Logo -->
+    <div class="logo_Container">
+        <a href="homepage.html" class="logolink">
+            <img src="images\beaudei_logo.png" class="logo">
+        </a>
+    </div>
+
+    <!-- Navigation Bar -->
+    <button class="navigation" onclick="window.location.href='Promotion.html'">Promotion</button>
+
+    <div class="navigation2">
+        Shop
+        <div class="dropdown">
+            <button onclick="window.location.href='makeupshop.html'">MakeUp</button>
+            <button onclick="window.location.href='skincareshop.html'">Skin Care</button>
+        </div>
+    </div>
+   
+    <button class="navigation" onclick="window.location.href='register.html'">Register</button>
+
+    <!-- Image Slider -->
+    <div class="slider_container">
+        <div class="slider">   
+            <img src="images\promotion_Homepage.png" id="img1" class="slider_img">
+            <img src="images\event_Homepage.png" id="img2" class="slider_img">
+            <img src="images\News_Homepage.jpg" id="img3" class="slider_img">
+
+            <div class="productInfo" id="banner1">
+                <h3>Promotion</h3>
+                <P>
+                    Buy 2 for the price of 1 is back! Get now it before it ends.
+                </P>
+            </div>
+
+            <div class="productInfo" id="banner2">
+                <h3>Latest Event</h3>
+                <P>
+                    Spring sale is here! Get 50% off on selected items.
+                </P>
+            </div>
+
+            <div class="productInfo" id="banner3">
+                <h3>News</h3>
+                <P>
+                    Due to COVID 19, we are sad to announce that most of our public stores are closed till further notice
+                </P>
+            </div>
+
+            <div id="nextButton" onclick="next()">&#62;</div>
+            <div id="prevButton" onclick="prev()">&#60;</div>
+        </div>
+    </div>
+
+    <div class="bestseller">
+        <h1>
+            Best Seller
+        </h1>
+    </div>
+
+    <div class="bestseller_holder">
+        <div class="bestseller_img">
+            <img src="images\bestseller.png">
+        </div>
+
+        <div class="best_box1">
+            Y.O.U Spring Collection
+        </div>
+
+        <div class="bestseller_img2">
+            <img src="images\bestseller2.jpg">
+        </div>
+
+        <div class="best_box2">
+            Sephora Skin Care
+        </div>
+
+        <div class="bestseller_img3">
+            <img src="images\bestseller3.png">
+        </div>
+
+        <div class="best_box3">
+            NARS Foundation and Base
+        </div>
+    </div>
+
+    <div class="bestseller">
+        <h1>
+            Recommended
+        </h1>
+    </div>
+
+    <div class="recommended_positioner">
+        <img src="images\recommended_stayhome.png">
+
+        <div class="shop_button">
+            <button class="shopnow_button" onclick="window.location.href='skincareshop.html'">Shop Now</button>
+        </div>
+    </div>
+
+    <script src="homepage_brains.js"></script>
+</body>
+<footer>
+    Copyright &copy; Beaudei 2020
+</footer>
+</html>

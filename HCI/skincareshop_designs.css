@@ -1,0 +1,511 @@
+html, body
+{
+    background-color: black;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+footer
+{
+    background-color: #fd8fd7;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 30px;
+    vertical-align: center;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+/* To position the logo */
+.logo_Container
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 30%;
+    height: 100px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* To remove the link decoration */
+a.logolink
+{
+    text-decoration: none;
+    z-index: 100;
+}
+
+/* To edit the logo's size */
+.logo
+{
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+/* Navigation box for promotion and register */
+.navigation
+{
+    width: 33%;
+    float: left;
+    background-color: #fd8fd7;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    vertical-align: middle;
+    line-height: 50px;
+    margin-top: 20px;
+    transition: 0.5s ease;
+    text-decoration: none;
+    padding: 0;
+    border: none;
+    outline: none;
+    position: relative;
+}
+
+/* Navigation box for shop */
+.navigation2
+{
+    width: 34%;
+    float: left;
+    background-color: #fd8fd7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    vertical-align: middle;
+    line-height: 50px;
+    margin-top: 20px;
+    transition: 0.5s ease;
+    z-index: 1;
+    position: relative;
+}
+
+/* designing the dropdown for navigation 2 */
+.dropdown
+{
+    display: none;
+    position: absolute;
+    background-color: #d1a1c0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 100%;
+}
+
+/* Changing color on mouse hover for promotion and register */
+.navigation:hover
+{
+    cursor: pointer;
+    background-color: #f736b3;
+}
+
+/* Changing color on mouse hover for shop */
+.navigation2:hover
+{
+    background-color: #f736b3;
+}
+
+/* When hover on shop, dropdown will be displayed */
+.navigation2:hover .dropdown
+{
+    display: block;
+}
+
+/* Editing the button to make it look like part of the dropdown */
+.dropdown button
+{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    transition: 0.5s ease;
+    display: block;
+    background: none;
+    outline: none;
+    border: none;
+    padding: none;
+    width: 100%;
+}
+
+/* Changin button color on hover */
+.dropdown button:hover
+{
+    background-color: #bb4090;
+    cursor: pointer;
+}
+
+
+/* ========================================== */
+/* ============= MAKEUP DESIGNS ============= */
+/* ========================================== */
+
+/* Positioning the banner */
+.bilhelp
+{
+    text-align: center;
+    margin: auto;
+    margin-top: 180px;
+    height: 150px;
+    width: 70%;
+    background-color: #bb4090
+}
+
+/* Edit the size of the banner */
+.makeuplogo
+{
+    width: 100%;
+    height: 100%;
+}
+
+/* Edit font size and position */
+.subtitle
+{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+    color: white;
+    margin-top: 50px;
+    font-weight: bold;
+    background-color: rgb(43, 43, 43);
+    height: 40px;
+    vertical-align: center;
+    line-height: 40px;
+    transition: 0.5s ease;
+    width: 100%;
+}
+
+.subtitle2
+{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(43, 43, 43);
+    height: 40px;
+    vertical-align: center;
+    line-height: 40px;
+    transition: 0.5s ease;
+    width: 100%;
+}
+
+/* Edit on hover effect */
+.subtitle:hover
+{
+    cursor: pointer;
+    background-color: rgb(71, 71, 71);
+}
+
+.subtitle2:hover
+{
+    cursor: pointer;
+    background-color: rgb(71, 71, 71);
+}
+
+/* Editing the size of the content holder */
+.content_panel
+{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+
+/* Edit the position and size of the content -> left */
+.content1
+{
+    width: 30%;
+    height: 300px;
+    left: 3%;
+    position: absolute;
+    margin-top: 20px;
+}
+
+/* Edit the position and size of the content -> center */
+.content2
+{
+    width: 30%;
+    height: 300px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    margin-top: 20px;
+}
+
+/* Edit the position and size of the content -> right */
+.content3
+{
+    width: 30%;
+    height: 300px;
+    right: 3%;
+    position: absolute;
+    margin-top: 20px;
+}
+
+/* Adjust content image size */
+.content_img
+{
+    background: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+}
+
+/* Edit the position and size of the content info -> left */
+.content_detail1
+{
+    width: 30%;
+    height: 30px;
+    left: 3%;
+    position: absolute;
+    margin-top: 340px;
+    color: black;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+/* Edit the position and size of the content info -> center */
+.content_detail2
+{
+    width: 30%;
+    height: 30px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 340px;
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+/* Edit the position and size of the content info -> right */
+.content_detail3
+{
+    width: 30%;
+    height: 30px;
+    right: 3%;
+    position: absolute;
+    margin-top: 340px;
+    color: black;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+/* Phone Size */
+@media screen and (max-width:500px)
+{
+    .logo_Container
+    {
+        width: 80%;
+        height: 110px;
+        margin-top: 20px;
+    }
+
+    .navigation
+    {
+        width: 100%;
+        margin-top: 0;
+        position: relative;
+    } 
+
+    .navigation2
+    {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .dropdown
+    {
+        position: static;
+        width: 100%;
+    }
+
+    .dropdown button 
+    {
+        position: static;
+    }
+
+    /* ========================================== */
+    /* ============= MAKEUP DESIGNS ============= */
+    /* ========================================== */
+
+    .content_panel
+    {
+        height: 900px;
+        margin-top: -20px;
+    }
+
+    .content1
+    {
+        width: 80%;
+        height: 200px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        margin-bottom: 50px;
+    }
+
+    .content2
+    {
+        width: 80%;
+        height: 200px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        margin-bottom: 50px;
+    }
+
+    .content3
+    {
+        width: 80%;
+        height: 200px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        margin-bottom: 50px;
+    }
+
+    .content_detail1
+    {
+        position: relative;
+        width: 80%;
+        margin-top: -30px;
+        margin-bottom: 50px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content_detail2
+    {
+        position: relative;
+        width: 80%;
+        margin-top: -30px;
+        margin-bottom: 50px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content_detail3
+    {
+        position: relative;
+        width: 80%;
+        margin-top: -30px;
+        margin-bottom: 50px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bilhelp
+    {
+        width: 90%;
+        height: 180px;
+    }
+
+    .makeuplogo
+    {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+/* Tablet Size */
+@media screen and (max-width:1024px) and (min-width:501px)
+{
+    .logo_Container
+    {
+        width: 50%;
+        height: 150px;
+        margin-top: 30px;
+    }
+
+    .navigation
+    {
+        width: 33%;
+        margin-top: 0;
+        position: relative;
+    }
+
+    .navigation2
+    {
+        width: 34%;
+        margin-top: 0;
+    }
+
+    .dropdown
+    {
+        position: static;
+        width: 100%;
+    }
+
+    .content_panel
+    {
+        height: 270px;
+    }
+
+    .content1
+    {
+        width: 30%;
+        height: 180px;
+    }
+
+    .content2
+    {
+        width: 30%;
+        height: 180px;
+    }
+
+    .content3
+    {
+        width: 30%;
+        height: 180px;
+    }
+
+    .content_detail1
+    {
+        width: 30%;
+        margin-top: 220px;
+    }
+
+    .content_detail2
+    {
+        width: 30%;
+        margin-top: 220px;
+    }
+
+    .content_detail3
+    {
+        width: 30%;
+        margin-top: 220px;
+    }
+
+    .bilhelp
+    {
+        width: 80%;
+    }
+}

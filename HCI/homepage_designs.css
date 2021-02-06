@@ -1,0 +1,801 @@
+html, body
+{
+    background-color: black;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+footer
+{
+    background-color: #fd8fd7;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 30px;
+    vertical-align: center;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+
+
+/* ========================================== */
+/* ============ HOMEPAGE DESIGNS ============ */
+/* ========================================== */
+
+/* To position the logo */
+.logo_Container
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 30%;
+    height: 100px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* To remove the link decoration */
+a.logolink
+{
+    text-decoration: none;
+    z-index: 100;
+}
+
+/* To edit the logo's size */
+.logo
+{
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+/* Navigation box for promotion and register */
+.navigation
+{
+    width: 33%;
+    float: left;
+    background-color: #fd8fd7;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    vertical-align: middle;
+    line-height: 50px;
+    margin-top: 20px;
+    transition: 0.5s ease;
+    text-decoration: none;
+    padding: 0;
+    border: none;
+    outline: none;
+    position: relative;
+}
+
+/* Navigation box for shop */
+.navigation2
+{
+    width: 34%;
+    float: left;
+    background-color: #fd8fd7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    vertical-align: middle;
+    line-height: 50px;
+    margin-top: 20px;
+    transition: 0.5s ease;
+    z-index: 1;
+    position: relative;
+}
+
+/* designing the dropdown for navigation 2 */
+.dropdown
+{
+    display: none;
+    position: absolute;
+    background-color: #d1a1c0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 100%;
+}
+
+/* Changing color on mouse hover for promotion and register */
+.navigation:hover
+{
+    cursor: pointer;
+    background-color: #f736b3;
+}
+
+/* Changing color on mouse hover for shop */
+.navigation2:hover
+{
+    background-color: #f736b3;
+}
+
+/* When hover on shop, dropdown will be displayed */
+.navigation2:hover .dropdown
+{
+    display: block;
+}
+
+/* Editing the button to make it look like part of the dropdown */
+.dropdown button
+{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    transition: 0.5s ease;
+    display: block;
+    background: none;
+    outline: none;
+    border: none;
+    padding: none;
+    width: 100%;
+}
+
+/* Changin button color on hover */
+.dropdown button:hover
+{
+    background-color: #bb4090;
+    cursor: pointer;
+}
+
+/* Editing the size and position of best seller title */
+.bestseller
+{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 50px;     
+}
+
+/* Text size */
+.bestseller h1
+{
+    font-size: 100%;
+}
+
+/* To position the slider */
+.slider_container
+{
+    width: 60%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 162px;
+}
+
+/* Slide content container */
+.slider
+{
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: white;
+}
+
+/* To edit size and position of the image in the slider */
+.slider_img
+{
+    width: 99%;
+    height: 400px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: absolute;
+}
+
+/* Shows product info below image */
+.productInfo
+{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 100%;
+    height: 75px;
+    position: absolute;
+    bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3
+{
+    position: relative;
+    left: 20px;
+    top: -15px;
+    font-weight: bold;
+}
+
+p
+{
+    position: relative;
+    left: 20px;
+    top: -30px;
+    width: 95%;
+}
+
+/* Next button for slider */
+#nextButton
+{
+    position: absolute;
+    right: 0px;
+    color: black;
+    width: 50px;
+    height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+    top: 50%;
+    margin-top: -35px;
+    transition: 0.5s ease;
+    font-size: 50px;
+}
+
+#nextButton:hover
+{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    cursor: pointer;
+}
+
+/* Previous button for slider */
+#prevButton
+{
+    position: absolute;
+    left: 0px;
+    color: black;
+    width: 50px;
+    height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+    top: 50%;
+    margin-top: -35px;
+    transition: 0.5s ease;
+    font-size: 50px;
+}
+
+#prevButton:hover
+{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    cursor: pointer;
+}
+
+.bestseller_holder
+{
+    width: 100%;
+    height: 300px;
+}
+
+.bestseller_img
+{
+    width: 30%;
+    height: 300px;
+    left: 3%;
+    position: absolute;
+}
+
+.best_box1
+{
+    width: 30%;
+    height: 300px;
+    left: 3%;
+    position: absolute;
+    transition: 0.5s ease;
+    background-color: rgba(0, 0, 0, 0);
+    color: transparent;
+    text-align: center;
+    vertical-align: center;
+    line-height: 300px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.best_box1:hover
+{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.bestseller_img2
+{
+    width: 30%;
+    height: 300px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+}
+
+.best_box2
+{
+    width: 30%;
+    height: 300px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    transition: 0.5s ease;
+    background-color: rgba(0, 0, 0, 0);
+    color: transparent;
+    text-align: center;
+    vertical-align: center;
+    line-height: 300px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.best_box2:hover
+{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.bestseller_img3
+{
+    width: 30%;
+    height: 300px;
+    right: 3%;
+    position: absolute;
+}
+
+.best_box3
+{
+    width: 30%;
+    height: 300px;
+    right: 3%;
+    position: absolute;
+    transition: 0.5s ease;
+    background-color: rgba(0, 0, 0, 0);
+    color: transparent;
+    vertical-align: center;
+    text-align: center;
+    line-height: 300px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.best_box3:hover
+{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.bestseller_img img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.bestseller_img2 img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.bestseller_img3 img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.recommended_positioner
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 400px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.recommended_positioner img
+{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+
+.shop_button
+{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    vertical-align: center;
+    line-height: 400px;
+    transition: ease 0.5s;
+}
+
+.shopnow_button
+{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    border: none;
+    width: 20%;
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: transparent;
+    transition: ease 0.5s;
+}
+
+.shop_button:hover
+{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.shop_button:hover .shopnow_button
+{
+    border: 2px solid white;
+    color: white;
+}
+
+.shopnow_button:hover
+{
+    background-color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+
+
+
+/* Phone Size */
+@media screen and (max-width:500px)
+{
+    /* ========================================== */
+    /* ============ HOMEPAGE DESIGNS ============ */
+    /* ========================================== */
+
+    .navigation
+    {
+        width: 100%;
+        margin-top: 0;
+        position: relative;
+    } 
+
+    .navigation2
+    {
+        width: 100%;
+        margin-top: 0;
+    }
+
+   .dropdown
+    {
+        position: static;
+        width: 100%;
+    }
+
+    .dropdown button 
+    {
+        position: static;
+    }
+
+    .slider_container
+    {
+        width: 100%;
+        height: 200px;
+        display: block;
+        margin-top: 242px;
+    }
+
+    .slider_img
+    {
+        height: 100%;
+    }
+
+    .logo_Container
+    {
+        width: 80%;
+        height: 110px;
+        margin-top: 20px;
+    }
+
+    .productInfo
+    {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    h3
+    {
+        font-size: 12px;
+        left: 10px;
+        top: -25px;
+        font-weight: bold;
+    }
+
+    p
+    {
+        font-size: 55%;
+        left: 10px;
+        top: -53px;
+        line-height: 1.2;
+    }
+
+    #nextButton
+    {
+        width: 30px;
+        height: 50px;
+        line-height: 50px;
+        top: 50%;
+        margin-top: -25px;
+        font-size: 30px;
+    }
+
+    #prevButton
+    {
+        width: 30px;
+        height: 50px;
+        line-height: 50px;
+        top: 50%;
+        margin-top: -25px;
+        font-size: 30px;
+    }
+
+    .bestseller
+    {
+        margin-bottom: 0;
+        font-size: 35px;
+    }
+
+    .bestseller_holder
+    {
+        height: auto;
+    }
+
+    .bestseller_img
+    {
+        width: 80%;
+        height: 300px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        margin-bottom: 20px;
+    }
+
+    .bestseller_img2
+    {
+        width: 80%;
+        height: 300px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        margin-bottom: 20px;
+    }
+
+    .bestseller_img3
+    {
+        width: 80%;
+        height: 300px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        margin-bottom: 20px;
+    }
+
+    .best_box1 
+    {
+        width: 80%;
+        height: 300px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        margin-bottom: 20px;
+        font-size: 20px;
+        margin-top: -320px;
+    }
+
+    .best_box2 
+    {
+        width: 80%;
+        height: 300px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        margin-bottom: 20px;
+        font-size: 20px;
+        margin-top: -320px;
+    }
+    
+    .best_box3
+    {
+        width: 80%;
+        height: 300px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        margin-bottom: 20px;
+        font-size: 20px;
+        margin-top: -320px;
+    }
+
+    .recommended_positioner
+    {
+        width: 80%;
+        height: 300px;
+        margin-bottom: 50px;
+    }
+
+    .recommended_positioner img
+    {
+        height: 300px;
+    }
+
+    .shop_button
+    {
+        height: 300px;
+        line-height: 300px;
+    }
+
+    .shopnow_button
+    {
+        width: 25%;
+        height: 40px;
+        font-size: 12px;
+    }
+}
+
+
+
+/* Tablet Size */
+@media screen and (max-width:1024px) and (min-width:501px)
+{
+    /* ========================================== */
+    /* ============ HOMEPAGE DESIGNS ============ */
+    /* ========================================== */
+
+    .navigation
+    {
+        width: 33%;
+        margin-top: 0;
+        position: relative;
+    }
+
+    .navigation2
+    {
+        width: 34%;
+        margin-top: 0;
+    }
+
+    .dropdown
+    {
+        position: static;
+        width: 100%;
+    }
+
+    .dropdown button 
+    {
+        position: static;
+    }
+
+    .slider_container
+    {
+        width: 80%;
+        height: 300px;
+        margin-top: 142px;
+    }
+
+    .slider_img
+    {
+        height: 100%;
+    }
+
+    .logo_Container
+    {
+        width: 50%;
+        height: 150px;
+        margin-top: 30px;
+    }
+
+    .productInfo
+    {
+        height: 60px;
+        line-height: 60px;
+    }
+
+    h3
+    {
+        font-size: 17px;
+        top: -32px;
+        font-weight: bold;
+    }
+
+    p
+    {
+        font-size: 75%;
+        top: -67px;
+        line-height: 1.3;
+    }
+
+    #nextButton
+    {
+        width: 40px;
+        height: 60px;
+        line-height: 60px;
+        top: 50%;
+        margin-top: -30px;
+        font-size: 40px;
+    }
+
+    #prevButton
+    {
+        width: 40px;
+        height: 60px;
+        line-height: 60px;
+        top: 50%;
+        margin-top: -30px;
+        font-size: 40px;
+    }
+
+    .bestseller
+    {
+        font-size: 45px;
+    }
+
+    .best_box1
+    {
+        font-size: 18px;
+    }
+
+    .best_box2 
+    {
+        font-size: 18px;
+    }
+    
+    .best_box3
+    {
+        font-size: 18px;
+    }
+
+    .recommended_positioner
+    {
+        width: 70%;
+        height: 350px;
+        margin-bottom: 50px;
+    }
+
+    .recommended_positioner img
+    {
+        height: 350px;
+    }
+
+    .shop_button
+    {
+        height: 350px;
+        line-height: 350px;
+    }
+
+    .shopnow_button
+    {
+        width: 28%;
+        height: 45px;
+        font-size: 14px;
+    }
+}

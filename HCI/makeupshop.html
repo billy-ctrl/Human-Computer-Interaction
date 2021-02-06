@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makeup Shop</title>
+    <link rel="stylesheet" type="text/css" href="makeupshop_designs.css">
+    <script src="jquery-3.5.1.min.js"></script>
+</head>
+<body>
+
+    <!-- Logo -->
+    <div class="logo_Container">
+        <a href="homepage.html" class="logolink">
+            <img src="images\beaudei_logo.png" class="logo">
+        </a>
+    </div>
+
+    <!-- Navigation Bar -->
+    <button class="navigation" onclick="window.location.href='Promotion.html'">Promotion</button>
+
+    <div class="navigation2">
+        Shop
+        <div class="dropdown">
+            <button onclick="window.location.href='makeupshop.html'">MakeUp</button>
+            <button onclick="window.location.href='skincareshop.html'">Skin Care</button>
+        </div>
+    </div>
+   
+    <button class="navigation" onclick="window.location.href='register.html'">Register</button>
+
+
+    <!-- Makeup banner positioner -->
+    <div class="bilhelp">
+        <img src="images\makeup fix.png" class="makeuplogo">
+    </div>
+    
+    <!-- Position Face Button -->
+    <div class="subtitle" onclick="reveal_sub_face()">
+        Face
+    </div>
+
+    <!-- Position Face Sub Choices -->
+    <div id="holder_A">
+        <div class="subsubtitle" onclick="reveal_foundation()">
+            Foundation
+        </div>
+
+        <!-- Position and display product image and info -->
+        <div class="content_panel" id="foundation">
+
+            <!-- image positioned left -->
+            <div class="content1" id="found1">
+                <img src="images/foundation1.jpg" class="content_img">
+            </div>
+            
+            <!-- image info positioned left -->
+            <div class="content_detail1" id="found_d1">
+                Flawless Skin Foundation<br>
+                $39.99
+            </div>
+
+            <!-- image positioned center -->
+            <div class="content2" id="found2">
+                <img src="images/foundation2.jpg" class="content_img">
+            </div>
+            
+            <!-- image info positioned center -->
+            <div class="content_detail2" id="found_d2">
+                Triple Barriers Foundation<br>
+                $19.99
+            </div>
+            
+            <!-- image positioned right -->
+            <div class="content3" id="found3">
+                <img src="images/foundation3.jpg" class="content_img">
+            </div>
+            
+            <!-- image info positioned right -->
+            <div class="content_detail3" id="found_d3">
+                DIOR Collection<br>
+                $42.99
+            </div>
+        </div>
+        
+        <div class="subsubtitle" onclick="reveal_concealer()"> 
+            Concealer
+        </div>
+
+        <!-- Position and display product image and info -->
+        <div class="content_panel" id="concealer">
+
+            <!-- image positioned left -->
+            <div class="content1" id="con1">
+                <img src="images/concealer1.jpg" class="content_img">
+            </div>
+            
+             <!-- image info positioned left -->
+            <div class="content_detail1" id="con_d1">
+                Tarte Color Corrector<br>
+                $25.99
+            </div>
+           
+            <!-- image positioned center -->
+            <div class="content2" id="con2">
+                <img src="images/concealer2.jpg" class="content_img">
+            </div>
+
+             <!-- image info positioned center -->
+            <div class="content_detail2" id="con_d2">
+                Loreal Paris Collection<br>
+                $11.99
+            </div>
+            
+            <!-- image positioned right -->
+            <div class="content3" id="con3">
+                <img src="images/concealer3.jpg" class="content_img">
+            </div>
+            
+            <!-- image info positioned right -->
+            <div class="content_detail3" id="con_d3">
+                Gorgeous Summer Collection<br>
+                $20.99
+            </div>
+        </div>
+    </div>
+
+    <!-- Position Eye Button -->
+    <div class="subtitle2" onclick="reveal_sub_face2()">
+        Eye
+    </div>
+
+    <!-- Position Eye Sub Choices -->
+    <div id="holder_B">
+        <div class="subsubtitle" onclick="reveal_mascara()">
+            Mascara
+        </div>
+
+        <!-- Position and display product image and info -->
+        <div class="content_panel" id="mascara">
+
+            <!-- image positioned left -->
+            <div class="content1" id="masc1">
+                <img src="images/mascara1.jpeg" class="content_img">
+            </div>
+            
+            <!-- image info positioned left -->
+            <div class="content_detail1" id="masc_d1"> 
+                Waterproof Mascara<br>
+                $14.99
+            </div>
+            
+            <!-- image positioned center -->
+            <div class="content2" id="masc2">
+                <img src="images/mascara2.jpg" class="content_img">
+            </div>
+            
+            <!-- image info positioned center -->
+            <div class="content_detail2" id="masc_d2">
+                Hypercurl Lash Building Mascara<br>
+                $13.99
+            </div>
+            
+            <!-- image positioned right -->
+            <div class="content3" id="masc3">
+                <img src="images/mascara3.jpg" class="content_img">
+            </div>
+            
+            <!-- image info positioned right -->
+            <div class="content_detail3" id="masc_d3">
+                Grande Volume Mascara Black<br>
+                $24.99
+            </div>
+        </div>
+
+        <div class="subsubtitle" onclick="reveal_eyeliner()">
+            Eyeliner
+        </div>
+
+        <!-- Position and display product image and info -->
+        <div class="content_panel" id="eyeliner">
+
+            <!-- image positioned left -->
+            <div class="content1" id="eye1">
+                <img src="images/eyeliner1.jpg" class="content_img">
+            </div>
+            
+            <!-- image info positioned left -->
+            <div class="content_detail1" id="eye_d1">
+                Black Liquid Eye Liner<br>
+                $21.99
+            </div>
+            
+            <!-- image positioned center -->
+            <div class="content2" id="eye2">
+                <img src="images/eyeliner2.jpg" class="content_img">
+            </div>
+            
+            <!-- image info positioned center -->
+            <div class="content_detail2" id="eye_d2">
+                N.B.N Eye Liner<br>
+                $24.99
+            </div>
+            
+            <!-- image positioned right -->
+            <div class="content3" id="eye3">
+                <img src="images/eyeliner3.jpg" class="content_img">
+            </div>
+            
+            <!-- image info positioned right -->
+            <div class="content_detail3" id="eye_d3">
+                Simply Elegant Eye Liner<br>
+                $15.99
+            </div>
+        </div>
+    </div>
+
+    <!-- Position Lip Button -->
+    <div class="subtitle2" onclick="reveal_sub_face3()">
+        Lip
+    </div>
+
+    <!-- Position Lip Sub Choices -->
+    <div id="holder_C">
+        <div class="subsubtitle" onclick="reveal_lipgloss()">
+            Lip Gloss
+        </div>
+
+        <!-- Position and display product image and info -->
+        <div class="content_panel" id="lipgloss">
+
+            <!-- image positioned left -->
+            <div class="content1" id="lip1">
+                <img src="images/lg1.jpg" class="content_img">
+            </div>
+            
+            <!-- image info positioned left -->
+            <div class="content_detail1" id="lip_d1">
+                Moisture Infusion Lip Gloss<br>
+                $23.99
+            </div>
+            
+            <!-- image positioned center -->
+            <div class="content2" id="lip2">
+                <img src="images/lg2.jpg" class="content_img">
+            </div>
+            
+            <!-- image info positioned center -->
+            <div class="content_detail2" id="lip_d2">
+                Power Plumping Lip Gloss<br>
+                $22.99
+            </div>
+            
+            <!-- image positioned right -->
+            <div class="content3" id="lip3">
+                <img src="images/lg3.jfif" class="content_img">
+            </div>
+            
+            <!-- image info positioned right -->
+            <div class="content_detail3" id="lip_d3">
+                Wet Cherry Lip Gloss<br>
+                $17.99
+            </div>
+        </div>
+
+        <div class="subsubtitle" onclick="reveal_lipstain()">
+            Lip Stain
+        </div>
+
+        <!-- Position and display product image and info -->
+        <div class="content_panel" id="lipstain">
+
+            <!-- image positioned left -->
+            <div class="content1" id="stain1">
+                <img src="images/ls1.jpg" class="content_img">
+            </div>
+            
+            <!-- image info positioned left -->
+            <div class="content_detail1" id="stain_d1">
+                Color Intense Stain<br>
+                $22.99
+            </div>
+            
+            <!-- image positioned center -->
+            <div class="content2" id="stain2">
+                <img src="images/ls2.jpg" class="content_img">
+            </div>
+
+            <!-- image info positioned center -->
+            <div class="content_detail2" id="stain_d2">
+                Vynil Cream Lip Stain<br>
+                $44.99
+            </div>
+            
+            <!-- image positioned right -->
+            <div class="content3" id="stain3">
+                <img src="images/ls3.jpg" class="content_img">
+            </div>
+            
+            <!-- image info positioned right -->
+            <div class="content_detail3" id="stain_d3">
+                Powerstay Vivid Waterlite Lip Stain<br>
+                $9.99
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <script src="makeupshop_brains.js"></script>
+</body>
+<footer>
+    Copyright &copy; Beaudei 2020
+</footer>
+</html>
